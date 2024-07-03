@@ -73,40 +73,40 @@ you can find  - >  [ here ](https://github.com/OneKnow654/Enc/releases/download/
 
 # Encrypt a single file with a direct key
 ```bash
-enc.py -e -k your_key test.txt
+enc -e -k your_key test.txt
 ```
 
 #### Encrypt a single file with a key file
 ```bash
-enc.py -e -K keyfile.txt test.txt
+enc -e -K keyfile.txt test.txt
 ```
 
 #### Encrypt multiple files with a direct key
 ```bash
-enc.py -e -k your_key test1.txt test2.txt
+enc -e -k your_key test1.txt test2.txt
 ```
 
 #### Encrypt multiple files with a key file
 ```bash
-enc.py -e -K keyfile.txt test1.txt test2.txt
+enc -e -K keyfile.txt test1.txt test2.txt
 ```
 
 #### Decrypt a single file with a direct key
 ```bash
-enc.py -d -k your_key test.txt.enc
+enc -d -k your_key test.txt.enc
 ```
 
 #### Decrypt a single file with a key file
 ```bash
-enc.py -d -K keyfile.txt test.txt.enc
+enc -d -K keyfile.txt test.txt.enc
 ```
 
 #### Generate and print a key
 ```bash
-enc.py -g
+enc -g
 ```
 
 #### Generate and save a key
 ```bash
-python enc.py -gs
+enc -gs
 ```
